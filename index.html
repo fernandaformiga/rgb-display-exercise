@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB scales</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="left">
+        <h2>RGB scales</h2>
+        <h3>find your color</h3>
+        <div id="display"></div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="picker">
+        <div class="colorRange">
+          <label>[R] </label>
+          <input type="text" id="input_r" value="103" disabled />
+          <input
+            class="range"
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            id="red"
+            value="115"
+          />
+        </div>
+        <div class="colorRange">
+          <label>[G] </label>
+          <input type="text" id="input_g" value="103" disabled />
+          <input
+            class="range"
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            id="green"
+            value="10"
+          />
+        </div>
+        <div class="colorRange">
+          <label>[B] </label>
+          <input type="text" id="input_b" value="103" disabled />
+          <input
+            class="range"
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            id="blue"
+            value="162"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
